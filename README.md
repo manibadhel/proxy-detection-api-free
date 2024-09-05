@@ -1,4 +1,4 @@
-# IP Proxy Detection Script
+# IP Proxy Detection API Endpoint
 
 This example script checks if a user's IP address is using a proxy. It utilizes a free API service to determine the nature of the IP address and provides a visual warning if a proxy is detected. API endpoint can be used in any language.
 
