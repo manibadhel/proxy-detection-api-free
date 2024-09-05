@@ -4,7 +4,7 @@ This example script checks if a user's IP address is using a proxy. It utilizes 
 
 ## Overview
 
-I have created an endpoint: https://api.maninder.net/lookup/?ip=1.1.1.1 to check the IP status wether it's proxied connection or not.
+I have created an endpoint: https://api.maninder.net/lookup/?ip=1.1.1.1 to check the IP status.
 
 The script performs the following actions:
 1. Retrieves the user's IP address from the `$_SERVER` superglobal.
@@ -14,8 +14,9 @@ The script performs the following actions:
 ## Features
 
 - Detects if the IP address is a proxy.
-- Displays a warning message if a proxy is detected.
-- Uses a free, publicly accessible API for proxy detection.
+- Displays IP address and proxy: true/false in response (simple and easy).
+- Collects data from various sources, databases, and AI models.
+- Free to use, No request rate limits.
 
 ## API Endpoint
 
@@ -27,7 +28,7 @@ Replace `YOUR_IP_ADDRESS` with the actual IP address you wish to check. The API 
 
 ## Usage
 
-Simply include or run the script in your environment. The script will automatically perform the proxy check and display the result.
+Include or run the script in your dev environment. The script will automatically perform the proxy check and display the result.
 
 
 ## License
@@ -37,6 +38,7 @@ This script is provided as-is with no warranties. You are free to use and modify
 ## Developer
 
 Maninderpal Singh - a college dropout 😜
+
 ## Contact
 
 For any questions or issues, please contact hi@maninder.net or open an issue on the repository.
